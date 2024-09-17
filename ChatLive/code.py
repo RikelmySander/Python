@@ -50,5 +50,8 @@ def main(page):
     page.add(title)
     page.add(btn_init)
 
-#Execute system
+#run the system as an app
 ft.app(target=main, port=8000)
+#For execute in Web Browser run these code in terminal: flet run --web --port:8000 or another port your chose
+#To run in the web browser, execute this code in the terminal: 
+#flet run --web --port:8000 code.py (or another port of your choice)
